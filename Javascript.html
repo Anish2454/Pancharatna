@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 	<html>
 		<head>
 			<title> "THE JAVASCRIPT"</title>
@@ -23,11 +23,54 @@
 				else {
 				alert ("Dumbass Nigha");
 				}
-				}
-				function websiteButton (website) {
-					window.location.href = "http://google.com";
-				}
+				};
+				function gameRps (game) { 
+				var userChoice = prompt("Do you choose rock, paper or scissors?");
+				var computerChoice = Math.random();
+				if (computerChoice < 0.34) {
+					computerChoice = "rock";
+				} 
+				else if(computerChoice <= 0.67) {
+					computerChoice = "paper";
+				} 
+				else {
+					computerChoice = "scissors";
+				} 
 				
+				confirm("The computer chose:" + "" + computerChoice);
+
+				var compare = function(choice1, choice2) {
+				if(choice1 === choice2) {
+				alert("The result is a tie!");
+    }
+    else if (choice1 === "rock") {
+        if(choice2 === "scissors") {
+            alert("rock wins");
+        }
+        else {
+            alert("paper wins");
+        }
+    }
+    else if(choice1 === "paper") {
+        if(choice2 === "rock") {
+            alert("paper wins");
+        }
+        else {
+            alert("scissors wins");
+        }
+    }
+    else if(choice1 == "scissors") {
+        if(choice2 === "paper") {
+            alert("scissors wins");
+        }
+        else {
+            alert("rock wins");
+        }
+    }
+}
+
+compare(userChoice, computerChoice);
+}
 			</script>
 		</head>
 		
@@ -41,7 +84,7 @@
 				<br>
 				<br>
 				<br>
-				<input type = "button" NAME = "buton2" onclick="websiteButton(this.website)" value="Google">
+				<input type = "button" NAME = "buton2" onclick="gameRps(this.game)" value="Rock Paper Scissors">
 			</form>
 			
 		</body>
