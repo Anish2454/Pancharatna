@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+	<html>
+		<head>
+			<title> "THE JAVASCRIPT"</title>
+			<h1>JBVBVJBFF</h1>
+			<script> function testResults (form) {
+				var TestVar = form.inputbox.value;
+					switch(input) {
+						case "Anish":
+							alert("Damn DAT NIGHA SEXY");
+							}
+							break;
+						case "rock paper scissors" :
+							var userChoice = prompt("Do you choose rock, paper or scissors?");
+				var computerChoice = Math.random();
+				if (computerChoice < 0.34) {
+					computerChoice = "rock";
+				} 
+				else if(computerChoice <= 0.67) {
+					computerChoice = "paper";
+				} 
+				else {
+					computerChoice = "scissors";
+				} 
+				
+				confirm("The computer chose:" + " " + computerChoice);
+
+				var compare = function(choice1, choice2) {
+				if(choice1 === choice2) {
+				alert("The result is a tie!");
+    }
+    else if (choice1 === "rock") {
+        if(choice2 === "scissors") {
+            alert("rock wins");
+        }
+        else {
+            alert("paper wins");
+        }
+    }
+    else if(choice1 === "paper") {
+        if(choice2 === "rock") {
+            alert("paper wins");
+        }
+        else {
+            alert("scissors wins");
+        }
+    }
+    else if(choice1 == "scissors") {
+        if(choice2 === "paper") {
+            alert("scissors wins");
+        }
+        else {
+            alert("rock wins");
+        }
+	else{
+		alert("YO DUMBASS THAT WASNT A CHOICE");
+		}
+    }
+}
+
+compare(userChoice, computerChoice);
+break;
+default:
+alert("Dumbass Nigha");
+}
+}
+
+			</script>
+		</head>
+		
+		<body> 
+			<form NAME ="myForm" ACTION="" METHOD="GET">
+			WHALECUM TO DA RICE FIELDS MUDAFUKA <br><br>
+			WRITE SOME SHIT<br>
+				<input type = "text" NAME="inputbox">
+				<br>
+				<input type="button" NAME="button" onclick="testResults(this.form)" value="Submit">
+			</form>
+			
+		</body>
+	</html>
