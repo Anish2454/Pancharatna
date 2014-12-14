@@ -1,7 +1,7 @@
 #navbar{
   width: 100%;
   background-color: black;
-  opacity: 0.5;
+  opacity: 75%;
   height: 5%;
   position: fixed;
   margin-top: 0px;
@@ -20,6 +20,7 @@ body {
   
 a {
   text-decoration: none;
+  color: White;
   font-family: Times;
   font-size: 15px;
   }
@@ -30,9 +31,9 @@ a {
   }
   
  a:visited{
-   color: Yellow;
+   color: White;
    }
  
  a:link{
-   color: Purple;
+   color: White;
    }
