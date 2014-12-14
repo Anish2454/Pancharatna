@@ -16,3 +16,11 @@ a {
   color: green;
   font-size: 25px;
   }
+  
+ a:visited{
+   color: Yellow;
+   }
+ 
+ a:link{
+   color: Purple;
+   }
