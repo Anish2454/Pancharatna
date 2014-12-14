@@ -74,8 +74,8 @@ div h2 {
   z-index: 1;
   }
   
- #page 2 a {
-   margin:auto;
+ #page2 a {
+   margin: auto;
    height: 100px;
    width: 100px;
    }
