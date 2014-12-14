@@ -43,7 +43,7 @@ td{
    width: 100%;
    display: block;
    position: relative;
-   z-index: 2;
+   z-index: -1;
    }
 
 div h1 {
@@ -58,8 +58,8 @@ div h2 {
   }
   
 .bubble{
-   width: 100px;
-   height: 100px;
+   width: 200px;
+   height: 200px;
    border-radius: 100%;
    border: 5px solid purple;
    margin: auto;
