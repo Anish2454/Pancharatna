@@ -1,7 +1,7 @@
 #navbar{
   width: 100%;
   background-color: black;
-  opacity: 75%;
+  opacity: 0.25;
   height: 5%;
   position: fixed;
   margin-top: 0px;
@@ -15,7 +15,7 @@ td{
   }
   
 body {
-  background: #ccc;
+  background-image: url("http://medleyweb.com/wp-content/uploads/2012/07/Website-Background-15.jpeg");
   }
   
 a {
