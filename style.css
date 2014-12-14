@@ -15,7 +15,7 @@ td{
   }
   
 body {
-  background-image: url("http://geekfree.net/wp-content/uploads/2014/09/best-website-backgrounds-for-desktop-px.jpg");
+  background-image: url("circuit.jpg");
   }
   
 #navbar a {
@@ -23,6 +23,7 @@ body {
   color: white;
   font-family: Times;
   font-size: 20px;
+  text-align: center;
   }
   
  #navbar a:hover{
