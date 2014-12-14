@@ -6,6 +6,7 @@
   position: fixed;
   margin-top: -10px;
   margin-left: -5px;
+  z-index: -1;
   }
 table {
   width: 100%;
