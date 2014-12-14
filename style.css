@@ -1,9 +1,8 @@
 #navbar{
-  width: 500px;
-  margin: 0px 200px 500px 20px;
+  width: 100%;
   background-color: black;
   opacity: 0.5;
-  height: 30px;
+  height: 5%;
   position: fixed;
   }
 
