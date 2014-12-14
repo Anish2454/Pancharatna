@@ -6,7 +6,7 @@
   position: fixed;
   margin-top: -10px;
   margin-left: -5px;
-  z-index: 1;
+  z-index: 3;
   }
 table {
   width: 100%;
@@ -71,7 +71,7 @@ div h2 {
   width: 100%;
   display: block;
   position: relative;
-  z-index: 3;
+  z-index: 1;
   }
   
  #page 2 a {
