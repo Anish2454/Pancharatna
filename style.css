@@ -54,3 +54,10 @@ div h1 {
   color: white;
   }
   
+ .bubble{
+   width: 100px;
+   height: 100px;
+   border-radius: 100%;
+   border: 2px solid purple;
+   }
+   
