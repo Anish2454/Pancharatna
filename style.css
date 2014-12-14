@@ -1,5 +1,6 @@
 body {
   background-image: url("http://images.apple.com/v/holiday/a/home/images/hero_alt_large.jpg");
+  background-repeat: no-repeat;
   }
   
 #nav {
