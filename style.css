@@ -1,12 +1,10 @@
 #navbar{
-  width: 100%;
-  background-color: black;
-  opacity: 0.7;
-  height: 30px;
-  position: fixed;
-  margin-top: -10px;
-  margin-left: -5px;
-  z-index: 3;
+  position: relative;
+  z-index: 9999;
+  min-width: 1010px;
+  height: 2.5em;
+  margin: 0px auto 1em;
+  background: rgba(0,0,0,0,6);
   }
 table {
   width: 100%;
@@ -20,7 +18,7 @@ td{
   text-decoration: none;
   color: white;
   font-family: Times;
-  font-size: 20px;
+  font-size: 18px;
   text-align: center;
   }
   
@@ -41,7 +39,6 @@ td{
    background-image: url("http://lunar.thegamez.net/yardlandscaping/landscaping-website/blue-retro-pattern-twitter-background-twitter-backgrounds-1920x1024.jpg");
    height: 100%;
    display: block;
-   position: relative;
    z-index: -1;
    }
 
