@@ -1,9 +1,13 @@
-div {
+#navbar{
   width: 500px;
   margin: 0px 200px 500px 20px;
-  background: transparent;
+  opacity: 0.5;
   height: 30px;
   position: fixed;
+  }
+
+body{
+  background: #ccc;
   }
   
 a {
