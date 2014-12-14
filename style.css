@@ -38,6 +38,7 @@ td{
 
 #page1 {
    background-image: url("http://lunar.thegamez.net/yardlandscaping/landscaping-website/blue-retro-pattern-twitter-background-twitter-backgrounds-1920x1024.jpg");
-   height: 100%;
+   height: 3000px;
    width: 100%;
+   display: block;
    }
