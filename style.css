@@ -1,18 +1,61 @@
-#contanier {
-  display: block;
-  height: 500em;
-  width: 500em;
-  position: relative;
+body {
   background-image: url("http://images.apple.com/v/holiday/a/home/images/hero_alt_large.jpg");
   }
   
 #nav {
+  margin: 0;
+  margin-left: -8px;
+  margin-top: -8px;
   position: absolute;
-  margin-left: 0px;
-  margin-right: 0px;
   display: block;
+  padding: 0;
+  height: 2.5em;
   width: 100%;
-  background: 0,0,0,0.6;
+  background-color: rgba(0,0,0,0.6);
   }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  }
+  
+#elements {
+  margin-top: .5em;
+  position: absolute;
+  right: 10em;
+  left: 11.5em;
+  }
+  
+li {
+  float: left;
+  display: block;
+  width: 13em;
+  color: white;
+  font-size: 18px;
+  font-family: "Garamond";
+ }
+ 
+#message{
+  position:absolute;
+  right: 15em;
+  top: 8em;
+}
+
+#message h1 {
+  font-family: "Garamond";
+  font-size: 128px;
+  color: white;
+  text-align: center;
+  }
+  
+ #message h2{
+  font-family: "Garamond";
+  color: white;
+  text-align: center;
+  }
+  
+ 
+ 
 
    
