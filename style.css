@@ -35,7 +35,7 @@ td{
    color: white;
    }
 #page1 {
-   background-image: url("circuit.jpg");
+   background: url("circuit.jpg");
    height: 100%;
    background-size: cover;
    }
