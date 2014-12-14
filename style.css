@@ -3,6 +3,7 @@
   height: 500em;
   width: 500em;
   position: relative;
+  background-image: url("http://images.apple.com/v/holiday/a/home/images/hero_alt_large.jpg")
   }
   
 #nav {
@@ -11,5 +12,7 @@
   margin-right: 0px;
   display: block;
   width: 100%;
+  background: 0,0,0,0.6;
+  }
 
    
