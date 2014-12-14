@@ -2,7 +2,7 @@
   width: 100%;
   background-color: black;
   opacity: 0.7;
-  height: 10%;
+  height: 8%;
   position: fixed;
   margin-top: -10px;
   }
@@ -22,12 +22,12 @@ body {
   text-decoration: none;
   color: white;
   font-family: Times;
-  font-size: 15px;
+  font-size: 20px;
   }
   
  #navbar a:hover{
   color: green;
-  font-size: 25px;
+  font-size: 30px;
   }
   
  #navbar a:visited{
