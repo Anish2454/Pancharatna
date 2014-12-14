@@ -36,6 +36,8 @@ td{
    }
  #page1 {
    background-image: url("circuit.jpg");
+   height: 10000px;
+   width: 100px;
    }
 #page1 h2 h4 {
   text-align: center;
