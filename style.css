@@ -28,17 +28,20 @@ td{
   }
   
  #navbar a:visited{
-   color: White;
+   color: white;
    }
  
  #navbar a:link{
-   color: White;
+   color: white;
    }
- #page1 {
+#page1 {
    background-image: url("circuit.jpg");
    height: 100%;
-   width: 100%;
    }
+.page{
+  display: block;
+  width: 100%;
+  }
 #page1 h2 h4 {
   text-align: center;
   }
