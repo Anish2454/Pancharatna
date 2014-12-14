@@ -6,8 +6,11 @@
   position: fixed;
   margin-top: 0px;
   }
-
-body{
+table {
+  width: 100%;
+}
+  
+body {
   background: #ccc;
   }
   
