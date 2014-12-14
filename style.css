@@ -25,15 +25,15 @@ body {
   font-size: 15px;
   }
   
- a:hover{
+ #navbar a:hover{
   color: green;
   font-size: 25px;
   }
   
- a:visited{
+ #navbar a:visited{
    color: White;
    }
  
- a:link{
+ #navbar a:link{
    color: White;
    }
