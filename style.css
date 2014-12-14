@@ -23,20 +23,21 @@ td{
   text-align: center;
   }
   
- #navbar a:hover{
+#navbar a:hover{
   color: green;
   font-size: 30px;
   }
   
- #navbar a:visited{
+#navbar a:visited{
    color: white;
    }
  
- #navbar a:link{
+#navbar a:link{
    color: white;
    }
+
 #page1 {
-   background-image:url("http://www.agpmcomputers.es/wp-content/uploads/2014/01/Circuit-Wallpaper.jpg");
+   background-image: url("http://lunar.thegamez.net/yardlandscaping/landscaping-website/blue-retro-pattern-twitter-background-twitter-backgrounds-1920x1024.jpg");
    height: 100%;
    width: 100%;
    }
