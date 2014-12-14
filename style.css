@@ -14,10 +14,6 @@ td{
   text-align: center;
   }
   
-body {
-  background-image: url("circuit.jpg");
-  }
-  
 #navbar a {
   text-decoration: none;
   color: white;
@@ -38,3 +34,9 @@ body {
  #navbar a:link{
    color: White;
    }
+ #page1 {
+   background-image: url("circuit.jpg");
+   }
+#page1 h2 h4 {
+  text-align: center;
+  }
