@@ -74,9 +74,10 @@ div h2 {
   z-index: 1;
   }
   
- #page2 img{
+ #page2 div{
    margin: auto;
-   height: 100px;
-   width: 100px;
+   height: 200px;
+   width: 200px;
+   border: 4px solid blue;
    }
    
