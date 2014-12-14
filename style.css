@@ -1,12 +1,18 @@
 div {
   width: 500px;
-  margin: auto;
+  margin: 0px 200px 500px 200px;
   background: transparent;
-  height: 20px;
+  height: 30px;
+  position: fixed;
   }
   
 a {
   text-decoration: none;
   font-family: Times;
   font-size: 15px;
+  }
+  
+ a: hover{
+  color: green;
+  font-size: 25px;
   }
