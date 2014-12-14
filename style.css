@@ -1,10 +1,10 @@
 #navbar{
   width: 100%;
   background-color: black;
-  opacity: 0.25;
-  height: 5%;
+  opacity: 0.7;
+  height: 10%;
   position: fixed;
-  margin-top: 0px;
+  margin-top: -10px;
   }
 table {
   width: 100%;
