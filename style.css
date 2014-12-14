@@ -35,8 +35,7 @@ td{
    color: white;
    }
 #page1 {
-   background-image: url("http://www.agpmcomputers.es/wp-content/uploads/2014/01/Circuit-Wallpaper.jpg");
+   background-image:url("http://www.agpmcomputers.es/wp-content/uploads/2014/01/Circuit-Wallpaper.jpg");
    height: 100%;
    width: 100%;
-   background-size: cover;
    }
