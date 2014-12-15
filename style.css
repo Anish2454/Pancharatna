@@ -1,29 +1,30 @@
 body {
   background-image: url("http://images.apple.com/v/holiday/a/home/images/hero_alt_large.jpg");
   background-repeat: no-repeat;
+  z-index: 999;
   }
   
 #nav {
-  margin: 0;
   margin-left: -8px;
   margin-top: -8px;
   position: absolute;
   display: block;
-  padding: 0;
+  padding: 0px;
   height: 2.5em;
-  width: 85em;
+  width: 80em;
   background-color: rgba(0,0,0,0.6);
+  z-index: 998;
   }
 
 ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   }
   
 #elements {
   margin-top: .5em;
-  position: absolute;
+  position: relative;
   right: 10em;
   left: 11.5em;
   }
@@ -31,14 +32,15 @@ ul {
 li {
   float: left;
   display: block;
-  width: 13em;
+  width: 13.5em;
   color: white;
   font-size: 18px;
   font-family: "Garamond";
+  text-decoration: none;
  }
  
 #message{
-  position:absolute;
+  position: absolute;
   right: 15em;
   top: 8em;
 }
@@ -48,6 +50,7 @@ li {
   font-size: 128px;
   color: white;
   text-align: center;
+  z-index: 1;
   }
   
  #message h2{
@@ -55,6 +58,20 @@ li {
   color: white;
   text-align: center;
   }
+ 
+a{
+  font-family: "Garamond";
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+  margin: 0px;
+  z-index: 5;
+  }
+  
+a:hover {
+  font-size: 30px;
+  }
+  
   
  
  
