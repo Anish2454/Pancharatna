@@ -3,19 +3,17 @@ var timerToggle = null;
 var startStop = null;
 var choice = "stop";
 
-function choose () {
+function choose() {
   if(choice == "stop") {
     choice = "start";
+	moveRight();
 	}
   else{
     choice = "stop";
+	moveRight();
 	}
-  init();
 }
     
-
-
-
 function moveRight() {
   if(choice == "start") {
   div.style.left = parseInt(div.style.left)+2+'px';
@@ -29,10 +27,9 @@ function moveRight() {
 function init() {
   div = document.getElementById("message");
   div.style.left = '0px'; 
-  moveRight();
+  choose();
   }
   
-  window.onload(init);
 
 
   

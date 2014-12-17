@@ -2,6 +2,8 @@ body {
   background-image: url("http://images.apple.com/v/holiday/a/home/images/hero_alt_large.jpg");
   background-repeat: no-repeat;
   z-index: 999;
+  height: 100%;
+  width: 100%;
   }
   
 #nav {
@@ -11,7 +13,7 @@ body {
   display: block;
   padding: 0px;
   height: 2.5em;
-  width: 80em;
+  width: 96em;
   background-color: rgba(0,0,0,0.6);
   z-index: 998;
   }
