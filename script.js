@@ -31,6 +31,8 @@ function init() {
   div.style.left = '0px'; 
   moveRight();
   }
+  
+  window.onload(init);
 
 
   
