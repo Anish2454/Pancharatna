@@ -43,22 +43,23 @@ li {
  
 #message{
   position: absolute;
-  right: 15em;
-  top: 8em;
+  top: 3em;
+  height: 1em;
+  width: 20em;
+  display: block;
 }
 
 #message h1 {
   font-family: "Garamond";
   font-size: 128px;
   color: white;
-  text-align: center;
   z-index: 1;
   }
   
  #message h2{
   font-family: "Garamond";
   color: white;
-  text-align: center;
+  text-align: center;  
   }
  
 a{

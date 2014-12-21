@@ -2,26 +2,48 @@ var div = null;
 var timerToggle = null;
 var startStop = null;
 var choice = "stop";
+var leftTimer = null;
 
 function choose() {
   if(choice == "stop") {
     choice = "start";
-	moveRight();
 	}
   else{
     choice = "stop";
-	moveRight();
 	}
+  moveLeft();
 }
     
 function moveRight() {
-  if(choice == "start") {
-  div.style.left = parseInt(div.style.left)+2+'px';
-  timerToggle = setTimeout(moveRight,80);
+  if (choice == "start") {
+    div.style.left = parseInt(div.style.left)+2+'px';
+    timerToggle = setTimeout(moveRight, 20);
+	
+	if (parseInt(div.style.left) > 800) {
+	    window.clearInterval(timerToggle);
+        moveLeft();
+	}
   }
+  
   else {
     window.clearTimeout(timerToggle);
 	}
+}
+
+function moveLeft() {
+  if (choice == "start") {
+    div.style.left = (parseInt(div.style.left)-2)+'px';
+    leftTimer = setTimeout(moveLeft, 20);
+    if (parseInt(div.style.left) < 2) { 
+      window.clearInterval(leftTimer);
+	  moveRight();
+	}
+  }
+  
+  else {
+    window.clearInterval(leftTimer);
+  }
+  
 }
   
 function init() {
@@ -29,6 +51,7 @@ function init() {
   div.style.left = '0px'; 
   choose();
   }
+  
   
 
 
