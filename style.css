@@ -1,9 +1,8 @@
-body {
+body{
   background-image: url("http://images.apple.com/v/holiday/a/home/images/hero_alt_large.jpg");
   background-repeat: no-repeat;
+  background-size: cover;
   z-index: 999;
-  height: 100%;
-  width: 100%;
   }
   
 #nav {
@@ -12,8 +11,10 @@ body {
   position: absolute;
   display: block;
   padding: 0px;
-  height: 2.5em;
-  width: 96em;
+  height: 6em;
+  width: 210em;
+  margin-left: -10px;
+  margin-right: 0px;
   background-color: rgba(0,0,0,0.6);
   z-index: 998;
   }
@@ -25,16 +26,17 @@ ul {
   }
   
 #elements {
-  margin-top: .5em;
+  margin-top: 1em;
   position: relative;
-  right: 10em;
-  left: 11.5em;
+  right: 8em;
+  left: 10em;
+  padding-right: 0px;
   }
   
 li {
   float: left;
   display: block;
-  width: 13.5em;
+  width: 42em;
   color: white;
   font-size: 18px;
   font-family: "Garamond";
@@ -43,15 +45,13 @@ li {
  
 #message{
   position: absolute;
-  top: 3em;
-  height: 1em;
-  width: 20em;
+  top: 25em;
   display: block;
 }
 
 #message h1 {
   font-family: "Garamond";
-  font-size: 128px;
+  font-size: 28em;
   color: white;
   z-index: 1;
   }
@@ -59,12 +59,13 @@ li {
  #message h2{
   font-family: "Garamond";
   color: white;
-  text-align: center;  
+  text-align: center;
+  font-size: 10em  
   }
  
 a{
   font-family: "Garamond";
-  font-size: 18px;
+  font-size: 4em;
   color: white;
   text-decoration: none;
   margin: 0px;
@@ -72,7 +73,7 @@ a{
   }
   
 a:hover {
-  font-size: 30px;
+  font-size: 5.2em;
   }
   
   
