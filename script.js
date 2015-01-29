@@ -3,6 +3,8 @@ var timerToggle = null;
 var startStop = null;
 var choice = "stop";
 var leftTimer = null;
+var cursorX = null;
+var cursorY = null;
 
 function choose() {
   if(choice == "stop") {
@@ -51,7 +53,8 @@ function init() {
   div.style.left = '0px'; 
   choose();
   }
-  
+
+
   
 
 
