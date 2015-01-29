@@ -1,5 +1,6 @@
 body {
   background-image: url("http://ncreatives.com/wp-content/uploads/2013/08/1425636.jpg");
+  background-size: cover;
   background-repeat: no-repeat;
   z-index: 999;
   height: 100%;
