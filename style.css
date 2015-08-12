@@ -32,6 +32,7 @@ html {
   height: 1em;
   width: 20em;
   display: block;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.05);
 }
 
 #message h1 {
