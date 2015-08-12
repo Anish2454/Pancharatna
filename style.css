@@ -1,46 +1,30 @@
-#body1 {
-  background-image: url("http://ncreatives.com/wp-content/uploads/2013/08/1425636.jpg");
+html {
+  background-image: url(background.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
-  background-repeat: no-repeat;
-  z-index: 999;
-  height: 100%;
-  width: 100%;
   }
   
-#nav {
-  margin-left: -8px;
-  margin-top: -23px;
-  position: absolute;
-  display: block;
-  padding: 0px;
-  height: 2.5em;
-  width: 96em;
-  background-color: rgba(0,0,0,0.6);
-  z-index: 998;
-  }
-
-ul {
-  list-style-type: none;
-  margin: 0px;
-  padding: 0px;
-  }
+.nav{
+	border:1px solid #ccc;
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+.nav li{
+    display:inline;
+}
+.nav a{
+    display:inline-block;
+    padding:10px;
+	font-family: "Garamond";
+    font-size: 18px;
+    color: white;
+}
   
-#elements {
-  margin-top: 5px;
-  position: relative;
-  right: 10em;
-  left: 11.5em;
-  }
-  
-li {
-  float: left;
-  display: block;
-  width: 13.5em;
-  color: white;
-  font-size: 18px;
-  font-family: "Garamond";
-  text-decoration: none;
- }
  
 #message{
   position: absolute;
@@ -54,7 +38,6 @@ li {
   font-family: "Garamond";
   font-size: 128px;
   color: white;
-  z-index: 1;
   }
   
  #message h2{
@@ -62,19 +45,11 @@ li {
   color: white;
   text-align: center;  
   }
- 
-a{
-  font-family: "Garamond";
-  font-size: 18px;
-  color: white;
-  text-decoration: none;
-  margin: 0px;
-  z-index: 5;
-  }
   
-a:hover {
+.nav a:hover {
   font-size: 30px;
   }
+  
   
   
  
