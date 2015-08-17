@@ -21,7 +21,7 @@ function moveRight() {
     div.style.left = parseInt(div.style.left)+2+'px';
     timerToggle = setTimeout(moveRight, 20);
 	
-	if (parseInt(div.style.left) > 1350) {
+	if (parseInt(div.style.left) > 1100) {
 	    window.clearInterval(timerToggle);
         moveLeft();
 	}
