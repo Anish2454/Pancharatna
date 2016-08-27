@@ -1,0 +1,17 @@
+html {
+  background-image: url(background.jpg);
+}
+
+table, th, td {
+  border: 1px solid blue;
+  color: red;
+}
+
+.text {
+  color: White;
+  font-size: 2em;
+}
+
+#intro {
+  text-align: center;
+}
