@@ -458,13 +458,13 @@ p {
 @media screen and (max-width: 1200px) {
   #fh5co-about .fh5co-bg {
     width: 100%;
-    min-height: 500px;
+    min-height: 550px;
   }
 }
 @media screen and (max-width: 768px) {
   #fh5co-about .fh5co-bg {
     width: 100%;
-    min-height: 300px;
+    min-height: 500px;
   }
 }
 
@@ -776,7 +776,7 @@ p {
   width: 64px;
   position: absolute;
   content: "";
-  background: url(../images/0401-vegan.png) no-repeat;
+  background: url(../images/logo_copy.png) no-repeat;
   top: 0;
   left: 50%;
   margin-top: -50px;
